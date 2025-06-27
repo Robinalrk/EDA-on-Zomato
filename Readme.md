@@ -47,17 +47,45 @@ This project performs an in-depth **Exploratory Data Analysis (EDA)** on restaur
 
 ---
 
-## 📊 Key Insights (Sample)
+## 📊 Key Insights
+ 1. Chennai Has the Most Restaurants Listed
+Chennai tops the list with 11,630 restaurants, ahead of Mumbai and Bangalore.
+This shows strong Zomato adoption in southern India.
 
-- Bengaluru, Delhi, and Hyderabad host the largest number of restaurants  
-- North Indian and Chinese are the most common cuisines offered  
-- High ratings do not always imply high cost  
-- Online delivery is widely offered in top cities, but not always linked to higher ratings  
-- Some cities offer **high-rated, low-cost** dining — ideal for Zomato promotions
+🧾 "Zomato’s highest coverage is in Chennai — a potential city for deeper food partner expansion."
 
-*(See visuals in the notebook for more)*
+🍛 2. North Indian and Chinese are India’s Go-To Cuisines
+With over 85,000 listings, North Indian is the most common cuisine on Zomato.
+Chinese and Fast Food follow closely.
 
----
+🧾 "Traditional and casual cuisines dominate — ideal for promotions and combo offers."
+
+💰 3. High Rating ≠ High Price
+Scatterplot shows no strong link between cost and rating.
+Affordable places often have 4.5+ ratings.
+
+🧾 "Customers value quality and taste more than price — great food can be cheap."
+
+🚚 4. Restaurants with Delivery Get More Votes
+Feature	Avg Rating	Avg Votes
+Delivery ✅	3.74	411
+No Delivery ❌	3.22	362
+
+Delivery availability improves visibility and customer interaction.
+
+🧾 "Delivery-ready restaurants tend to be more popular — Zomato should help partners enable it."
+
+💸 5. Some Restaurants Offer Exceptional Value
+Name	City	Rating	Cost	Value Score
+Sharma Ji Ki Chai	Lucknow	4.8	₹50	0.0960
+Fateh Ki Kachori	Delhi	4.3	₹50	0.0860
+
+These spots give premium ratings at low cost — perfect for student/office crowds.
+
+🧾 "Zomato can highlight these ‘value heroes’ with a badge or featured section."
+
+
+(--see visuals in notebook for more info--)
 
 ## 📁 Project Structure
 
